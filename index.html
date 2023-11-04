@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Area Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Area Converter</h1>
+        <form id="converter-form">
+            <input type="number" id="input-area" placeholder="Enter area">
+            <select id="from-scale">
+                <option value="marla">Marla</option>
+                <option value="square-feet">Square Feet</option>
+                <!-- Add more options for other area scales -->
+            </select>
+        </form>
+        <div id="results">
+            <div class="conversion" id="marla">
+                <h2>Marla</h2>
+                <p><span id="marla-result">0</span> Marla</p>
+            </div>
+            <div class="conversion" id="square-feet">
+                <h2>Square Feet</h2>
+                <p><span id="square-feet-result">0</span> Square Feet</p>
+            </div>
+            <!-- Add more div elements for other area scales -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
